@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEVANANDA C O | Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    
+    <!-- Logo / Name -->
+    <a class="navbar-brand" href="#">DEVANANDA C O</a>
+
+    <!-- Toggle Button (for mobile) -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#hero">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#certificates">Certificates</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="hero">
+  <div class="container text-center">
+
+    <!-- Profile Image -->
+    <img src="images\profile.jpeg" class="profile-img" alt="profile">
+
+    <h1>Hi, I'm DEVANANDA 👋</h1>
+    <h2>Full Stack Developer</h2>
+
+    <p><b>Fresher | Ready to work | Passionate Developer</b></p>
+
+    <a href="#contact" class="btn btn-primary">Contact</a>
+    <a href="https://linkedin.com/in/devananda-co-b7a609376/" target="_blank" class="btn btn-outline-light">
+      <i class="bi bi-linkedin"></i> LinkedIn
+    </a>
+
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="text-center">
+      I am an enthusiastic Computer Science Engineer with a strong interest in web development. 
+        I enjoy exploring new technologies and continuously enhancing my skills. 
+        I love creating simple, clean, and user-friendly web applications.
+
+        I am passionate about building a successful career in the technology field and growing as a developer.
+    </p>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="section bg-light">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="row">
+      <div class="col-md-6">
+        <p>Python</p>
+        <div class="progress"><div class="progress-bar" style="width:85%"></div></div>
+
+        <p>HTML, CSS</p>
+        <div class="progress"><div class="progress-bar" style="width:80%"></div></div>
+      </div>
+
+      <div class="col-md-6">
+        <p>C</p>
+        <div class="progress"><div class="progress-bar" style="width:90%"></div></div>
+
+        <p>java script</p>
+        <div class="progress"><div class="progress-bar" style="width:80%"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-box" data-aos="fade-up">
+      <h4>E-commerce Website</h4>
+      <p>
+        Developed a full-stack e-commerce application using Django with features like user authentication, 
+        product management, shopping cart, and payment integration.
+      </p>
+    </div>
+
+    <div class="project-box" data-aos="fade-up">
+      <h4>Zomato Clone</h4>
+      <p>
+        Created a responsive frontend clone of Zomato using HTML, CSS, and Bootstrap focusing on UI design 
+        and user experience.
+      </p>
+    </div>
+
+    <div class="project-box" data-aos="fade-up">
+      <h4>Spotify Data Analysis</h4>
+      <p>
+        Analyzed user listening behavior using Python, Pandas, and data visualization techniques to identify 
+        trends and preferences.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ===== CERTIFICATES ===== -->
+<section id="certificates" class="section bg-light">
+  <div class="container">
+    <h2 class="section-title">Certificates</h2>
+    <div class="certificate-box">
+      <h4><i class="bi bi-award"></i>IEEE Membership</h4>
+      <p>Recognized as a member of IEEE, staying updated with technology and research.</p>
+    </div>
+    
+    <div class="certificate-box">
+      <h4><i class="bi bi-award"></i> NASSCOM Digital 101</h4>
+      <p>Learned basics of digital technology and trends.</p>
+    </div>
+
+    <div class="certificate-box">
+      <h4><i class="bi bi-award"></i>Infosys Springboard</h4>
+      <p>Completed courses to improve technical knowledge.</p>
+    </div> 
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section bg-light">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+
+    <form id="submit-form">
+      <input type="text" name="name" placeholder="Your Name" required class="form-control mb-3">
+      <input type="email" name="email" placeholder="Your Email" required class="form-control mb-3">
+      <textarea name="message" placeholder="Message" required class="form-control mb-3"></textarea>
+
+      <button type="submit" class="btn btn-primary w-100">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>© 2026 Devananda C O | Full Stack Developer</p>
+
+<div>
+  <a href="https://linkedin.com/in/devananda-co-b7a609376/" target="_blank">
+    <i class="bi bi-linkedin"></i>
+  </a>
+  <a href="https://github.com/Devananda07" target="_blank">
+    <i class="bi bi-github"></i>
+  </a>
+</div>
+</footer>
+
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+$("#submit-form").submit((e)=>{
+  e.preventDefault()
+  $.ajax({
+    url:"https://script.google.com/macros/s/AKfycbynIMumGzJN7pAC2SeuyK7aa88XuSm59YE1VO3luiCpoXorGkBgoeXs3bk5Wql1SECO/exec",
+    data:$("#submit-form").serialize(),
+    method:"post",
+    success:function (){
+      alert("Message sent successfully!")
+      window.location.reload()
+    },
+    error:function (){
+      alert("Something went wrong")
+    }
+  })
+})
+</script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
